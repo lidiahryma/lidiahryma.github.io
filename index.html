@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+            integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css" />
+    <link id="page_favicon" href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Lida</title>
+</head>
+<body>
+<header>
+    <p class="header-text">hryma</p>
+</header>
+<div class="main_content wrapper">
+    <div class="nav-bar">
+        <ul class="contact-list">
+            <li class="list-item"><a href="#about">Про мене</a></li>
+            <li class="list-item"><a href="#port">Портфоліо</a></li>
+            <li class="list-item"><a href="#contact">Контакти</a></li>
+        </ul>
+    </div>
+    <div class="infomation" id="about">
+        <div class="infomation-photo">
+            <img src="images/photo_2021-11-21_17-39-49%201.png" alt="lida" id="theImage4" onClick="makeFullScreen4()">
+        </div>
+        <div class="infomation-text">
+            <h3 class="infomation-heading">Привіт, я Ліда</h3>
+            <p class="infomation-text_parag">Займаюся графічним дизайном,<br> а також фотографією.
+            </p>
+            <p class="infomation-text_parag" > Навчаюся в Львівській <br> Національній Академії <br> Мистецтв</p>
+        </div>
+    </div>
+</div>
+<div class="main-portfolio" id="port">
+    <div class="main-portfolio_p" ><p>Портфоліо</p></div>
+    <div class="main-photo">
+        <div class="main-portfolio_photo wrapper" id="lightgallery">
+            <img src="images/photo_2021-11-21_18-34-39%201.png" alt="portfolio_photo">
+            <img src="images/DSC_0101%201.png" alt="portfolio_photo">
+            <img src="images/DSC_0180%201.png" alt="portfolio_photo">
+        </div>
+    </div>
+</div>
+<footer id="contact">
+    <div class="footer-info wrapper">
+        <p class="footer-info_p">Контакти</p>
+        <div class="footer-info_links">
+            <p class="footer-info_links_parag">Email: lidiahryma22@gmail.com</p>
+            <p class="footer-info_links_parag">Telegram: +380 (096) 485 91 45</p>
+            <p class="footer-info_links_parag"><a href="https://www.instagram.com/_garasym_">Instagram: _garasym_</a></p>
+        </div>
+    </div>
+</footer>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+        integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+></script>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {selector: '.main-portfolio_photo img',});
+</script>
+</body>
+</html>
